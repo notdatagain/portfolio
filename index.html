@@ -4,36 +4,107 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Jill Maree Lidsky Portfolio Wireframe</title>
+	<title>Jill Maree Lidsky Portfolio</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="all.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
 </head>
 
 <body>
 	<header>
-    <h1>Header</h1>
-    <nav class="navigation">Nav</nav>
+		<h1>Jill Maree Lidsky</h1>
+		<nav class="navbar">
+			<ul>
+				<li>
+					<a href="#about-me">About Me</a>
+				</li>
+				<li>
+					<a href="#skills">Skills</a>
+				</li>
+				<li>
+					<a href="#projects">Projects</a>
+				</li>
+				<li>
+					<a href="#connect">Connect</a>
+				</li>
+			</ul>
+		</nav>
 	</header>
 	<main>
 		<section class="hero-img">
-      <h2>Headline</h2>
-      <p>Hero Image<p>
+			<div class="headline-background">
+				<h2>Exploring new approaches to everyday problems.</h2>
+			</div>
 		</section>
 		<section class="about-me">
-      Bio
+			<a name="about-me"></a>
+			<h3>About Me</h3>
+			<p class="background"> Hi, I’m Jill! I’m currently a student in Thinkful’s Software Engineering Flex
+				program, coming from
+				a background in exercise science. I enjoy finding new ways to approach a problem and seeing things from
+				concept to completion.</p>
+			<p class="interests">I love working through movements on boulder problems at the climbing gym and outdoors,
+				seeing recipes
+				from a cookbook come to life in the kitchen, and chasing after people in my age group in triathlons.</p>
 		</section>
 		<section class="skills">
-      Skills
+			<a name="skills"></a>
+			<h3>Skills</h3>
+			<div class="skills-container">
+				<div class="skills-image-wrapper">
+					<img class="skills-image" src="images/html5-logo.png" alt="HTML5">
+				</div>
+				<div class="skills-image-wrapper">
+					<img class="skills-image" src="images/css3-logo.png" alt="CSS3">
+				</div>
+				<div class="skills-image-wrapper">
+					<img class="skills-image" src="images/js-logo.png" alt="JavaScript">
+				</div>
+				<div class="skills-image-wrapper">
+					<img class="skills-image" src="images/jquery-logo.png" alt="jQuery">
+				</div>
+				<div class="skills-image-wrapper">
+					<img class="skills-image" src="images/github-logo.png" alt="GitHub">
+				</div>
+			</div>
 		</section>
 		<section class="projects">
-      Projects
+			<a name="projects"></a>
+			<h3>Projects</h3>
+			<div class="project-container">
+				<div class="project-image-wrapper project-column">
+					<img src="images/body-quiz-screenshot.jpg" alt="body quiz screenshot">
+				</div>
+				<div class="project-details-wrapper project-column">
+					<h4>Body Quiz</h4>
+					<p>Take this quiz to see how much you know about your body.</p>
+					<a href="https://github.com/jilllidsky15/body-quiz-app" target="_blank">Code</a>
+					<a href="https://jilllidsky15.github.io/body-quiz-app/index.html" target="_blank">Demo</a>
+					<p class="project-skills">skills: html5, css3, javascript, jquery</p>
+				</div>
+			</div>
 		</section>
 		<section class="connect">
-      Connect
+			<a name="connect"></a>
+			<div class="connect-info">
+				<a href="mailto:jilllidsky15@gmail.com" target="_blank" aria-label="Email Jill">
+					<i class="fas fa-envelope-square"></i>
+				</a>
+				<a href="https://www.linkedin.com/in/jill-maree-lidsky-153521b2/" target=_"blank"
+					aria-label="Jill's LinkedIn">
+					<i class="fab fa-linkedin"></i>
+				</a>
+				<a href="https://github.com/jilllidsky15" target="_blank" aria-label="Jill's GitHub">
+					<i class="fab fa-github-square"></i>
+				</a>
+			</div>
 		</section>
 	</main>
-	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+	<script src="scroll.js">
 	</script>
-	<script src="script.js">
-  </script>
 </body>
+
 </html>
